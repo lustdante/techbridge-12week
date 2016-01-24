@@ -1,1 +1,1 @@
-# techbridge-12week
+# TechBridge Minjae Homework Branch.
