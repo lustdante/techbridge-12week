@@ -1,4 +1,13 @@
 /* 버튼을 만들어 봅시다! */
 .my-button {
-
+  width: 200px;
+  background-color: #BCD2EE;
+  border-radius: 5px;
+  margin: auto;
+  color: white;
+  font-size: 16px;
+  font-family: Verdana;
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
 }
