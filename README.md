@@ -1,1 +1,1 @@
-# techbridge-12week
+# TechBridge Kiseong Homework Branch.
