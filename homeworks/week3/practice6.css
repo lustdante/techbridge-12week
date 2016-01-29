@@ -4,7 +4,7 @@ html, body {
 }
 
 .header {
-  /* 여기 */
+  background-color: #333333;/* 여기 */
 }
 
 .container {
@@ -15,7 +15,9 @@ html, body {
 
 .jumbotron {
   height: 800px;
-  /* 여기 */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;/* 여기 */
 }
 
 .nav {
@@ -28,6 +30,7 @@ html, body {
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: 12px;
+  display: inline-block;
 }
 
 .main {
