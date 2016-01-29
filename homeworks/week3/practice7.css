@@ -1,4 +1,4 @@
-nav a {
+.nav a {
   color: #5a5a5a;
   font-size: 11px;
   font-weight: bold;
@@ -10,40 +10,40 @@ nav a {
   display: inline-block;
 }
 
-jumbotron {
+.jumbotron {
   height: 500px;
   background-image: image(https://goo.gl/04j7Nn);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-jumbotron container h1 {
+.jumbotron .container h1 {
   color: white;
   font-size: 48px;
   font-weight: bold;
 }
 
-jumbotron p {
+.jumbotron p {
   color: white;
   font-size: 20px;
 }
 
-learn more {
+.learn more {
   background-color: #f7f7f7;
   padding-top: 25px;
   padding-bottom: 50px
 }
 
-learn more h3 {
+.learn more h3 {
   font-size: 18px;
   font-weight: bold;
 }
 
-nav li {
+.nav li {
   display: inline;
 }
 
-jumbotron container {
+.jumbotron .container {
   position: relative;
   top: 100px;
 
