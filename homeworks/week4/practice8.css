@@ -1,0 +1,126 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 940px;
+	padding: 0 10px;
+}
+
+
+/* Header */
+.header {
+  /* 배경화면은 여기 */
+
+  height: 800px;
+  text-align: center;
+}
+
+.header .container {
+	position: relative;
+	top: 200px;
+}
+
+.header h1 {
+  /* 이거 색깔이? */
+
+	font-size: 80px;
+	line-height: 100px;
+	margin-top: 0;
+	margin-bottom: 80px;
+}
+
+@media (min-width:850px) {
+	.header h1 {
+		font-size: 120px;
+	}
+}
+
+.header p {
+  /* 여기도 색깔이? */
+
+	font-weight: 500;
+	letter-spacing: 8px;
+	margin-bottom: 40px;
+	margin-top: 0;
+}
+
+.btn {
+  /* 버튼 스타일 여기! */
+
+  transition: background .5s;
+}
+
+/* Nav */
+.nav {
+  /* 네비게이션 스타일 */
+
+}
+
+.nav ul {
+  height: 80px;
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.nav ul li {
+  /* 네비게이션 리스트 아이템 스타일 */
+
+	list-style: none;
+  transition: background .5s;
+}
+
+.btn:hover, .nav ul li:hover {
+	background: #117bff;
+	cursor: pointer;
+	transition: background .5s;
+}
+
+/* Main */
+.main .container {
+	margin: 80px auto;
+}
+
+.main img {
+  /* 이미지 스타일 */
+}
+
+/* Jumbotron */
+.jumbotron {
+  /* 점보트론 배경사진 */
+
+	height: 600px;
+}
+
+.jumbotron .container {
+	position: relative;
+	top: 220px;
+}
+
+/* 여기 점보트론의 h2, p, btn에 스타일을 적용합니다. */
+
+/* 여기엔 footer의 스타일을 적용합니다. */
+
+/* Media Queries */
+@media (max-width: 500px) {
+  .header h1 {
+    font-size: 50px;
+    line-height: 64px;
+  }
+
+  .main, .jumbotron {
+    padding: 0 30px;
+  }
+
+  .main img {
+    width: 100%;
+  }
+}
