@@ -17,8 +17,8 @@ body {
 
 /* Header */
 .header {
-  /* 배경화면은 여기 */
-
+  background-image: url(https://s3.amazonaws.com/codecademy-content/projects/innovation-cloud/bg.jpg);
+  background-size: cover;
   height: 800px;
   text-align: center;
 }
@@ -29,7 +29,7 @@ body {
 }
 
 .header h1 {
-  /* 이거 색깔이? */
+  color: white;
 
 	font-size: 80px;
 	line-height: 100px;
@@ -44,7 +44,7 @@ body {
 }
 
 .header p {
-  /* 여기도 색깔이? */
+  color: white;
 
 	font-weight: 500;
 	letter-spacing: 8px;
@@ -53,14 +53,20 @@ body {
 }
 
 .btn {
-  /* 버튼 스타일 여기! */
+  color: white;
+	background-color: black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	text-decoration: none;
 
   transition: background .5s;
 }
 
 /* Nav */
 .nav {
-  /* 네비게이션 스타일 */
+  background-color: black;
 
 }
 
@@ -72,10 +78,13 @@ body {
 }
 
 .nav ul li {
-  /* 네비게이션 리스트 아이템 스타일 */
-
+  color: white;
+	display: inline-block;
+  line-height: 80px;
 	list-style: none;
   transition: background .5s;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .btn:hover, .nav ul li:hover {
@@ -84,20 +93,31 @@ body {
 	transition: background .5s;
 }
 
-/* Main */
+
 .main .container {
 	margin: 80px auto;
 }
 
 .main img {
-  /* 이미지 스타일 */
+  width: 192px;
+	height: 128px;
+	float: left;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-right: 80px;
+	margin-left: 0px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/projects/innovation-cloud/cloud.svg);
+
 }
 
-/* Jumbotron */
-.jumbotron {
-  /* 점보트론 배경사진 */
 
-	height: 600px;
+
+
+.jumbotron {
+	background: url(https://s3.amazonaws.com/codecademy-content/projects/innovation-cloud/jumbotron_bg.jpg) no-repeat center center;
+  background-size: cover;
+  height: 600px;
+
 }
 
 .jumbotron .container {
@@ -105,10 +125,32 @@ body {
 	top: 220px;
 }
 
-/* 여기 점보트론의 h2, p, btn에 스타일을 적용합니다. */
+.jumbotron h2 {
+	color: white;
+	text-align: right;
+}
 
-/* 여기엔 footer의 스타일을 적용합니다. */
+.jumbotron p {
+	color: white;
+	text-align: right;
+}
 
+.jumbotron .btn {
+	color: white;
+	float: right;
+}
+
+
+.footer {
+	background-color: black;
+	height: 80px;
+}
+
+.footer p {
+	color: white;
+	font-size: 14px;
+	line-height: 80px;
+}
 /* Media Queries */
 @media (max-width: 500px) {
   .header h1 {
