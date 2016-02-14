@@ -7,28 +7,22 @@ body {
 
 p {
   color: red;
-  }
+}
 
 h1 {
   color: green;
-  }
+}
 
 h2 {
   color: #e24e4d;
-  }
+}
 
 h3 {
   font-family: Verdana;
-  }
-   {
   font-size: 16px;
-  }
-   {
   color: white;
-  }
+}
 
-.underline {text-decoration: underline; }
-.bold {font-weight: bold; }
-.strike {text-decoration: line-through; }
-
-/* (7) 선그어 지우기 */
+.underline { text-decoration: underline; }
+.bold { font-weight: bold; }
+.strike { text-decoration: line-through; }
