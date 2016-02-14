@@ -17,8 +17,9 @@ body {
 
 /* Header */
 .header {
-  /* 배경화면은 여기 */
-
+  background-image: url(https://s3.amazonaws.com/codecademy-content/projects/innovation-cloud/bg.jpg);/* 배경화면은 여기 */
+	background-size: cover;
+	background-repeat: no-repeat;
   height: 800px;
   text-align: center;
 }
@@ -29,7 +30,7 @@ body {
 }
 
 .header h1 {
-  /* 이거 색깔이? */
+  color: white;/* 이거 색깔이? */
 
 	font-size: 80px;
 	line-height: 100px;
@@ -44,7 +45,7 @@ body {
 }
 
 .header p {
-  /* 여기도 색깔이? */
+  color: white;/* 여기도 색깔이? */
 
 	font-weight: 500;
 	letter-spacing: 8px;
@@ -53,14 +54,20 @@ body {
 }
 
 .btn {
-  /* 버튼 스타일 여기! */
+  color: white;/* 버튼 스타일 여기! */
+  background-color: black;
+	padding-left: 40px;
+	padding-top: 10px;
+	padding-right: 40px;
+	padding-bottom: 10px;
+	transition: background .5s;
 
-  transition: background .5s;
 }
 
 /* Nav */
 .nav {
-  /* 네비게이션 스타일 */
+  background-color: black;
+	/* 네비게이션 스타일 */
 
 }
 
@@ -72,8 +79,11 @@ body {
 }
 
 .nav ul li {
-  /* 네비게이션 리스트 아이템 스타일 */
-
+  color: white;
+	display:inline-block;
+	line-height: 80px;
+	padding-left: 10px;
+	padding-right: 10px;* 네비게이션 리스트 아이템 스타일 */
 	list-style: none;
   transition: background .5s;
 }
@@ -90,13 +100,21 @@ body {
 }
 
 .main img {
-  /* 이미지 스타일 */
+  background-image: url(https://s3.amazonaws.com/codecademy-content/projects/innovation-cloud/cloud.svg);
+	width: 192px;
+	height: 128px;
+	float: left;
+	margin-left: 0px;
+	margin-top: 50px;
+	margin-rjght: 80px;
+	margin-bottom: 50px;/* 이미지 스타일 */
 }
 
 /* Jumbotron */
 .jumbotron {
-  /* 점보트론 배경사진 */
-
+  background-image: url(https://s3.amazonaws.com/codecademy-content/projects/innovation-cloud/jumbotron_bg.jpg);/* 점보트론 배경사진 */
+	background-size: cover;
+	background-repeat: no-repeat;
 	height: 600px;
 }
 
@@ -105,10 +123,29 @@ body {
 	top: 220px;
 }
 
-/* 여기 점보트론의 h2, p, btn에 스타일을 적용합니다. */
+.jumbotron h2 {
+	color: white;
+	text-align: right;
+}/* 여기 점보트론의 h2, p, btn에 스타일을 적용합니다. */
+.jumbotron p {
+	color: white;
+	text-align: right;
+}
+.jumbotron .btn {
+	color: white;
+	float: right;
+}
 
-/* 여기엔 footer의 스타일을 적용합니다. */
+.footer {
+	background-color: black;
+	font-size: 80px;
+	}/* 여기엔 footer의 스타일을 적용합니다. */
 
+.footer p {
+	color: white;
+	font-size: 14px;
+	line-height: 80px;
+}
 /* Media Queries */
 @media (max-width: 500px) {
   .header h1 {
