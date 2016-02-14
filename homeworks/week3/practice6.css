@@ -4,7 +4,7 @@ html, body {
 }
 
 .header {
-  background-color: #333333;/* 여기 */
+  background-color: #333333;
 }
 
 .container {
@@ -15,9 +15,10 @@ html, body {
 
 .jumbotron {
   height: 800px;
+  background-image: url(http://s3.amazonaws.com/codecademy-content/projects/broadway/bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;/* 여기 */
+  background-attachment:fixed;
 }
 
 .nav {
