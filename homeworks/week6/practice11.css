@@ -1,0 +1,63 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arvo', serif;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.nav-pills li a {
+  color: #d8192f;
+  border: 1px solid #d8192f;
+  margin-left: 10px;
+  text-align: center;
+  width: 100px;
+}
+
+.nav-pills li.active a:hover {
+  background-color: #d8192f;
+}
+
+.jumbotron {
+  height: 500px;
+}
+
+.banner {
+  background-color: #36343f;
+  height: 180px;
+  color: #fff;
+}
+
+.section {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.nav-pills li.active a,
+.section .btn:hover,
+.nav-pills li a:hover {
+  background-color: rgba(216, 25, 47, 1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .5);
+  color: #fff;
+}
+
+@media (max-width: 680px) {
+  .header h1 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .nav {
+    float: none;
+    margin: 0 auto;
+  }
+  .banner {
+    height: 220px;
+  }
+  .nav-pills li:first-child a {
+    margin-left: 0;
+  }
+}
