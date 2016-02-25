@@ -1,0 +1,83 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.btn {
+
+}
+
+.video-section {
+  position: relative
+}
+
+.video-section video {
+  width: 100%;
+}
+
+.video-section .section-content {
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.video-section h1 {
+  font-size: 50px;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, .4);
+
+}
+
+.text-section {
+  margin-top: 100px;
+  text-align: center;
+  margin-bottom: 130px
+}
+
+.text-section h2 {
+  font-size: 48px;
+  font-weight: 300;
+
+}
+
+.text-section p {
+  color: #333;
+  font-size: 21px;
+  padding: 0 30px;
+}
+
+.app {
+
+}
+
+.feature-section {
+  height: 500px
+
+}
+
+.footer {
+
+}
+
+@media (max-width: 960px) {
+  .video-section {
+    height: 540px;
+  }
+  .video-section video {
+    height: 540px;
+    width: 960px;
+  }
+  .video-section h1 {
+    font-size: 32px;
+  }
+}
