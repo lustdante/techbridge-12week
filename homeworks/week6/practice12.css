@@ -10,7 +10,14 @@ html, body {
 }
 
 .btn {
-
+  background-color: #4386fc;
+  font-size: 16px;
+  font-weight: 300px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 26px; 
+  padding-right: 26px;
+  text-decoration: none;
 }
 
 .video-section {
@@ -35,6 +42,9 @@ html, body {
 .video-section h1 {
   font-size: 50px;
   text-shadow: 0 2px 3px rgba(0, 0, 0, .4);
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 50px;
 
 }
 
@@ -47,7 +57,8 @@ html, body {
 .text-section h2 {
   font-size: 48px;
   font-weight: 300;
-
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .text-section p {
@@ -61,12 +72,17 @@ html, body {
 }
 
 .feature-section {
-  height: 500px
-
+  height: 500px;
+  background-image:url(https://s3.amazonaws.com/codecademy-content/projects/excursion/camp.png);
 }
 
 .footer {
-
+  background-color: #eee;
+  font-size: 11px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 @media (max-width: 960px) {
