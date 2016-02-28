@@ -187,3 +187,131 @@ css를 이렇게 합니다.
 ```
 
 이렇게 하는 겁니다.
+
+## 4주차 숙제 코멘트
+
+- 배경사진 적용할때 설명에 나와있듯이
+
+```css
+/* 변경 전 */
+.header {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/projects/innovation-cloud/bg.jpg);
+  background-size: cover;
+}
+/* 변경 후 */
+.header {
+  background: url(https://s3.amazonaws.com/codecademy-content/projects/innovation-cloud/bg.jpg) no-repeat center center;
+  background-size: cover;
+}
+```
+
+이런식으로 background-image만 쓰는게 아니라 background를 써서 뒤에 `no-repeat center center`까지 적용시켜야 배경사진이 가운데 정렬로 적용됩니다. 안그러면 사진 윗부분이 적용되게 됩니다.
+
+- 흠... 설명은 `nav`안이라고 했지만 다른 섹션들도 보면 모두 내용들이 `container` 안에 들어가있습니다. 되도록이면 내용들은 `container`안에 넣어주세요.
+
+```html
+<!-- 변경 전 -->
+<div class="nav">
+  <ul>
+    <li>Register</li>
+    <li>Schedule</li>
+    <li>Sponsors</li>
+    <li>About</li>
+    <li>Contact</li>
+      <div class="container">
+
+      </div>
+  </ul>
+</div>
+<!-- 변경 후 -->
+<div class="nav">
+  <div class="container">
+    <ul>
+      <li>Register</li>
+      <li>Schedule</li>
+      <li>Sponsors</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+  </div>
+</div>
+```
+
+- img에는 `background-image` 스타일을 추가할 필요가 없습니다. 보통 `background-image`은 배경사진 넣을때만 쓰지만 (7)번에 나와있는 사진은 이미지를 보여주는데 사용됩니다.
+
+- `main`섹션에 들여쓰기 주의해주세요.
+- (12) 여기 `jumbotron`에는 배경사진을 제대로 적용하셨어요!
+- `jumbotron`을 추가하셨을땐 `container`를 넣으셨는데 `footer`를 추가하셨을땐 `container`를 안넣으셨네요. 앞으로 잊지 말아주세요!
+
+## 5주차 숙제 코멘트
+
+### 숙제 9
+- 배경사진이 적용됬긴 했지만
+
+```css
+/* 변경 전 */
+.main {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/projects/move/bg.jpg);
+  background-size: cover;
+}
+
+/* 변경 후 */
+.main {
+  background: url(https://s3.amazonaws.com/codecademy-content/projects/move/bg.jpg) no-repeat center center;
+  background-size: cover;
+}
+```
+
+설명은 4주차에도 담겨있습니다.
+
+- 11번에서 `feature` 안이 아니라 아래에 `supporting`을 추가하셔야 합니다.
+
+```html
+<!-- 변경 전 -->
+<div class="feature">
+    <h2>Move. Rest. Recover. Move.</h2>
+        <div class="supporting">
+            <h2>GO PREMIUM</h2>
+            <p>Receive recommendations based on your activity to level up.</p>
+            <a class="btn" href="#">LEARN MORE</a>
+        <div class="footer">
+            <h2>STOP SCROLLING. START MOVING</h2>
+            <a class="btn" href="#">START NOW</a>
+        </div>
+        </div>
+  <div class="container">
+
+  </div>
+</div>
+<!-- 변경 후 -->
+<div class="feature">
+  <div class="container">
+    <h2>Move. Rest. Recover. Move.</h2>
+  </div>
+</div>
+
+<div class="supporting">
+  <div class="container">
+    <h2>GO PREMIUM</h2>
+    <p>Receive recommendations based on your activity to level up.</p>
+    <a class="btn" href="#">LEARN MORE</a>
+  </div>
+</div>
+
+
+<div class="footer">
+  <div class="container">
+    <h2>STOP SCROLLING. START MOVING</h2>
+    <a class="btn" href="#">START NOW</a>
+  </div>
+</div>
+```
+
+그리고 `container`는 습관적으로 추가해주세요.
+
+- 10번에 있는 200픽셀 패딩을 `feature`가 아니라 `supporting`에 추가하셨네요. 그리고 패딩으로 내리는건 `padding-bottom`이 아니라 `padding-top`을 쓰셔서 내리는 의미였습니다.
+
+### 숙제 10
+
+- 앞으로 배경사진 적용할때 `no-repeat center center` 쓰는거 잊지 마세요!
+- 버튼에 패딩 추가하시는거 깜빡하셨어요!
