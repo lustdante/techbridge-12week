@@ -1,6 +1,47 @@
 # TechBridge Minjae Homework Branch.
 
+## 7주차 숙제 코멘트
+
+### 숙제 13
+
+- 완벽하게 했습니다.
+
+### 숙제 14
+
+- logo.svg는 어떻게 입력하셨는진 모르겠지만 그냥
+
+```html
+<img src="logo.svg" width="106" height="75">
+```
+
+이렇게 넣으면 됩니다.
+
+- html은 다 잘하셨는데 footer에서 4번째 col-md-2에 ul를 빼먹으셨네요.
+
+```html
+<!-- 변경 전 -->
+<div class="col-md-2">
+    <h3>Community</h3>
+        <a><li>Facebook</li></a>
+        <a><li>Twitter</li></a>
+        <a><li>Google+</li></a>
+</div>
+<!-- 변경 후 -->
+<div class="col-md-2">
+  <ul>
+    <h3>Community</h3>
+    <li><a>Facebook</a></li>
+    <li><a>Twitter</a></li>
+    <li><a>Google+</a></li>
+  </ul>
+</div>
+```
+
+아, 그러고 보니까 `li`와 `a`가 뒤섞여네요. `ul` 바로 아래는 `li`가 와야 한다는 것을 꼭 잊지 마세요!
+
 ## 6주차 숙제 코멘트
+
+- 배경사진 넣을때 `no-repeat center center`와 `background-size`를 잊지 말아주세요.
 
 ### 숙제 11
 
