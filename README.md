@@ -1,5 +1,50 @@
 # TechBridge Kiseong Homework Branch.
 
+## 8주차 숙제 코멘트
+
+- `row`를 두개 만드는게 아니라 하나의 `row`안에 4:8로 만드셔야 합니다.
+
+```html
+<!-- 변경 전 -->
+<div class="row">
+ <div class="col-md-4">
+   <h1>Kimkiseong</h1>
+ </div>
+</div>             
+<div class="row">
+ <div class="col-md-8">
+   <ul class="nav nav-pills" >
+     <li class="active"><a>All</a></li>
+     <li><a>Consumer</a></li>
+     <li><a>Mobile</a></li>
+     <li><a>Commerce</a></li>
+     <li><a>Enterprise</a></li>             
+   </ul>  
+ </div>
+</div>
+<!-- 변경 후 -->
+<div class="row">
+  <div class="col-md-4">
+    <h1>Kimkiseong</h1>
+  </div>
+  <div class="col-md-8">
+    <ul class="nav nav-pills" >
+      <li class="active"><a>All</a></li>
+      <li><a>Consumer</a></li>
+      <li><a>Mobile</a></li>
+      <li><a>Commerce</a></li>
+      <li><a>Enterprise</a></li>             
+    </ul>  
+  </div>
+</div>
+```
+
+- `footer`에도 같은 실수를 하셨습니다.
+
+- `p`스타일은 `.p`가 아니라 그냥 `p`입니다.
+
+수고하셨습니다!
+
 ## 7주차 숙제 코멘트
 ### 숙제 13
 
