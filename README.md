@@ -1,5 +1,22 @@
 # TechBridge Minjae Homework Branch.
 
+## 8주차 숙제 코멘트
+
+- `ul.nav.nav-pills`, 즉 `ul`에 `nav`와 `nav-pills`클래스가 두개 적용된건 다음처럼 표현합니다.
+
+```html
+<!-- 변경 전 -->
+<ul class="nav" class="nav-pills">
+<!-- 변경 후 -->
+<ul class="nav nav-pills">
+```
+
+`class`라는 속성은 하나밖에 못넣습니다.
+
+- \`이거 css에서 발견했습니다. 조심하세요.
+
+수고하셨습니다!
+
 ## 7주차 숙제 코멘트
 
 ### 숙제 13
